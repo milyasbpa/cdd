@@ -7,7 +7,7 @@ export interface TypographyProps {
     | "header-base"
     | "header-small"
     | "subtitle-base"
-    | "subtitle-small2"
+    | "subtitle-small"
     | "body-base"
     | "body-small"
     | "caption-base";
