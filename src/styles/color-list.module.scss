@@ -1,0 +1,42 @@
+@import url("./color-name.module.scss");
+$colors: (
+  // brand
+  "Black": $Black,
+  "White": $White,
+  //   Primary
+  "PrussianBlue0": $PrussianBlue0,
+  "PrussianBlue10": $PrussianBlue10,
+  "PrussianBlue20": $PrussianBlue20,
+  "PrussianBlue30": $PrussianBlue30,
+  "PrussianBlue40": $PrussianBlue40,
+  "PrussianBlue50": $PrussianBlue50,
+  "PrussianBlue60": $PrussianBlue60,
+  "PrussianBlue70": $PrussianBlue70,
+  "PrussianBlue80": $PrussianBlue80,
+  "PrussianBlue90": $PrussianBlue90,
+  "PrussianBlue100": $PrussianBlue100,
+  //   Blue
+  "Blue0": $Blue0,
+  "Blue10": $Blue10,
+  "Blue20": $Blue20,
+  "Blue30": $Blue30,
+  "Blue40": $Blue40,
+  "Blue50": $Blue50,
+  "Blue60": $Blue60,
+  "Blue70": $Blue70,
+  "Blue80": $Blue80,
+  "Blue90": $Blue90,
+  "Blue100": $Blue100,
+  //   Orange
+  "Orange0": $Orange0,
+  "Orange10": $Orange10,
+  "Orange20": $Orange20,
+  "Orange30": $Orange30,
+  "Orange40": $Orange40,
+  "Orange50": $Orange50,
+  "Orange60": $Orange60,
+  "Orange70": $Orange70,
+  "Orange80": $Orange80,
+  "Orange90": $Orange90,
+  "Orange100": $Orange100
+);

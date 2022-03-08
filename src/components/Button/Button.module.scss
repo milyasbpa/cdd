@@ -1,0 +1,61 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  &-variant {
+    &-primary {
+      &-default {
+        background-color: #f36f21;
+        border-radius: 8px;
+      }
+
+      &-disabled {
+        border-radius: 8px;
+        background-color: #e1e4ea;
+      }
+    }
+    &-secondary {
+      &-default {
+        border-radius: 8px;
+        background-color: white;
+        border: 2px solid #f36f21;
+      }
+      &-disabled {
+        border-radius: 8px;
+        border: 2px solid #bdbdbd;
+        background-color: white;
+      }
+    }
+    &-tertiary {
+      &-default {
+        border-radius: 8px;
+        background-color: white;
+      }
+
+      &-disabled {
+        border-radius: 8px;
+        background-color: white;
+      }
+    }
+  }
+
+  &-size {
+    &-long {
+      width: 328px;
+      height: 42px;
+    }
+    &-medium1 {
+      width: 152px;
+      height: 42px;
+    }
+    &-medium2 {
+      width: 141px;
+      height: 42px;
+    }
+    &-small {
+      width: 99px;
+      height: 32px;
+    }
+  }
+}
